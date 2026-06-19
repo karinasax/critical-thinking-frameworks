@@ -42,3 +42,10 @@ want — a well-written skill triggers on intent, not only on its name.
 Each framework is credited to its originators in its own entry. This collection
 curates and adapts existing work; it does not claim authorship of the underlying
 methods.
+
+## License
+
+Write-ups and curated content are licensed **CC BY 4.0**; the runnable skill code
+under `frameworks/*/skill/` is licensed **MIT**. These cover only the repository
+author's own contributions — the underlying methods remain the property of their
+creators, as credited in each entry. See [LICENSE-NOTE.md](LICENSE-NOTE.md) for details.
