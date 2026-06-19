@@ -101,7 +101,20 @@ This framework ships as a Claude skill in [`skill/`](skill/). Install it with:
 cp -r skill ~/.claude/skills/storm
 ```
 
-## Source
+## Attribution
 
-- Shao et al., *Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models*, NAACL 2024 — [arxiv.org/abs/2402.14207](https://arxiv.org/abs/2402.14207)
-- Code & live demo: [github.com/stanford-oval/storm](https://github.com/stanford-oval/storm)
+**The original method — STORM** was created by the **Stanford OVAL Lab**:
+
+- Yijia Shao, Yucheng Jiang, Theodore A. Kanell, Peter Xu, Omar Khattab, Monica S. Lam,
+  *Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models*,
+  **NAACL 2024** — [arxiv.org/abs/2402.14207](https://arxiv.org/abs/2402.14207)
+- Code (MIT license) & live demo: [github.com/stanford-oval/storm](https://github.com/stanford-oval/storm)
+  · [storm.genie.stanford.edu](https://storm.genie.stanford.edu)
+
+**The practical 4-prompt adaptation** that this entry's protocol and skill are based on
+comes from **Nav Toor (@heynavtoor)**, *"The Stanford STORM Method: How to Make Claude
+Research Like a PhD in Minutes"* (X, Jun 2026) —
+[x.com/heynavtoor/status/2067194761446920264](https://x.com/heynavtoor/status/2067194761446920264).
+The persona set, phase structure, and prompt wording here are adapted from that thread;
+the skill extends it with phase-by-phase pausing, persona adaptation, and source-grounding
+guidance.

@@ -120,3 +120,7 @@ If the user explicitly asks to skip the pauses ("just run the whole thing," "don
 ## Note on sources
 
 The article this method comes from describes running it on the model's own knowledge. For higher-stakes research, strengthen it by giving each perspective real sources — use web search or provided documents so the evidence is grounded rather than recalled. Offer this when the topic is time-sensitive, factual, or consequential.
+
+## Attribution
+
+STORM was created by the Stanford OVAL Lab (Shao et al., *Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models*, NAACL 2024 — arxiv.org/abs/2402.14207; code at github.com/stanford-oval/storm). This skill's 4-prompt adaptation is based on Nav Toor's (@heynavtoor) thread "The Stanford STORM Method" (x.com/heynavtoor/status/2067194761446920264), extended with phase-by-phase pausing, persona adaptation, and source-grounding guidance.

@@ -37,7 +37,8 @@ cp -r frameworks/storm/skill ~/.claude/skills/storm
 Then invoke it in Claude Code (e.g. `/storm`) or just describe the kind of thinking you
 want — a well-written skill triggers on intent, not only on its name.
 
-## Contributing
+## Credits
 
-This started as a personal research project. Suggestions for frameworks worth adding —
-especially with a good primary source — are welcome via issues or PRs.
+Each framework is credited to its originators in its own entry. This collection
+curates and adapts existing work; it does not claim authorship of the underlying
+methods.
