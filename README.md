@@ -15,6 +15,7 @@ directly.
 | Framework | What it's for | Entry |
 |-----------|---------------|-------|
 | **STORM** (Stanford OVAL) | Multi-perspective research — interrogate a topic from several expert lenses, map their contradictions, synthesize a briefing, then peer-review it | [frameworks/storm](frameworks/storm/) |
+| **SIFT** (Mike Caulfield) | Fast fact-checking in four moves — Stop, Investigate the source, Find better coverage, Trace claims to origin — via lateral reading; the counter-discipline for verifying AI output | [frameworks/sift](frameworks/sift/) |
 | **Life Reassessment** (Dan Koe) | Identity-first goal setting — excavate an anti-vision, orient toward a vision, and build a steerable plan through structured self-questioning | [frameworks/life-reassessment](frameworks/life-reassessment/) |
 
 *More entries coming — this is an evolving collection.*
